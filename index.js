@@ -3,6 +3,7 @@ const minuteE1 = document.getElementById("minutes");
 const secondsE1 = document.getElementById("seconds");
 const ampm = document.getElementById("am");
 
+
 function updateClock()
 {
     let h = new Date().getHours();
@@ -15,6 +16,10 @@ function updateClock()
         h=h-12;
         AMPM = "PM";
     }
+
+    h = h<10 ? "0" +h:h;
+    m = m<10 ? "0" +m:m;
+    s = s<10 ? "0" +s:s;
 
     hourE1.innerText =h
     minuteE1.innerText =m;

@@ -41,7 +41,7 @@ h2
 {
     width: 100px;
     height: 60px;
-    background-color: rgb(215, 130, 211);
+    background-color: rgb(107, 211, 84);
     opacity: .8;
     display: flex;
     justify-content: center;
@@ -59,7 +59,7 @@ h2
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background-color:rgb(189, 22, 134);
+    background-color:rgb(33, 107, 8);
     color: white;
     font-weight:bolder;
 }
