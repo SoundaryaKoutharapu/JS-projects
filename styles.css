@@ -10,6 +10,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;  
     background-position: center;
+    overflow: hidden;
 }
 
 h2
@@ -33,20 +34,22 @@ h2
 {
     margin: 10px;
     color:white;
+   
 }
 
 .clock span
 {
     width: 100px;
     height: 60px;
-    background-color: rgb(121, 238, 222);
+    background-color: rgb(215, 130, 211);
     opacity: .8;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
     border-radius: 3px;
-    color: rgb(161, 8, 187);
+    color:white;
+    font-weight: bolder;
    
 }
 
@@ -54,10 +57,11 @@ h2
 {
     height: 30px;
     font-size: 10px;
-    font-weight:bolder;
     text-transform: uppercase;
     letter-spacing: 2px;
-    background-color:rgb(245, 178, 8);
+    background-color:rgb(189, 22, 134);
+    color: white;
+    font-weight:bolder;
 }
 
 .clock #am
@@ -67,5 +71,7 @@ h2
     width: 60px;
     height: 40px;
     font-size: 20px;
-    background-color:lightcyan;
+    background-color:rgb(29, 181, 171);
+    color: white;
+    font-weight: bolder;
 }
