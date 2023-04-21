@@ -1,0 +1,35 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(158, 243, 166);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.btn
+{
+    background-color: rgb(147, 46, 173);
+    color: yellow;
+    padding: 20px 40px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgb(59, 30, 145);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: rgb(208, 130, 29);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
